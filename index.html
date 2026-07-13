@@ -397,7 +397,7 @@
 // CONFIGURACIÓN DEL BACKEND (Google Sheets vía Apps Script)
 // Pega aquí la URL que te da Google al desplegar el Web App (termina en /exec)
 // ========================================================================
-const GAS_URL = 'PEGA_AQUI_TU_URL_DE_APPS_SCRIPT';
+const GAS_URL = 'https://script.google.com/macros/s/AKfycbxJ9g2sA4yVyUe6a7Bbb4Vq99RSYjTFpAovaoS62XYtfccvNCT2xyjY9UNQgeRGGf-lww/exec';
 
 async function gasGet(action, extraParams){
   const params = new URLSearchParams({ action, ...(extraParams||{}) });
